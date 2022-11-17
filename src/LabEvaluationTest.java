@@ -3,10 +3,10 @@ public class LabEvaluationTest {
         System.out.println("welcome to CDAC NOIDA");
         System.out.println("welcome to CDAC NOIDA");
         System.out.println("Changes added to local");
-        int c = sum(10,10);
-        System.out.println("Sum : "+ c);
+        int c = mul(10,10);
+        System.out.println("mul : "+ c);
     }
-    public static int sum(int a, int b){
-        return a + b;
+    public static int mul(int a, int b){
+        return a * b;
     }
 }
